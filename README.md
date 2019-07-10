@@ -1,31 +1,23 @@
+AIBuilder Labs walks through Object Detection, Binary Classification, Text Classification, Form processing & Business Card scenarios.
 
-# Contributing
+Please visit [https://docs.microsoft.com/en-us/ai-builder/overview] to learn more about the scenarios and AIBuilder.
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+Please follow the steps below to set up the environment to use AIBuilder Labs 
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+For Binary Classification, Text Classification and Object Detection scenarios you need sample data in CDS.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+Manual data Set up
 
-# Legal Notices
+Step 1 :Import AIBuilderLabSolution_1_0_0_0 solution to the CDS environment.
+This will create 3 CDS entities - Object Detection Product , Health Feedback and Online Shopping Intent 
+Step 2 : Upload data to the entities created in step 1 
+o	Binary classification :	Please follow the instructions here[https://docs.microsoft.com/en-us/ai-builder/binary-classification-data-prep] to upload the Online Shopping Intent data.
+o	Text Classification : Go to Lab Data/Text Classification folder.Then upload data from pai_healthcare_feedbacks. Instructions here[https://docs.microsoft.com/en-us/ai-builder/before-you-build-text-classification-model]
+o	Object Detection : Go to Lab Data/ObjectDetection folder.Then upload data from aib_objectdetectionproducts. Please follow the same instructions as above for data upload.
 
-Microsoft and any contributors grant you a license to the Microsoft documentation and other content
-in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
-see the [LICENSE](LICENSE) file, and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the
-[LICENSE-CODE](LICENSE-CODE) file.
 
-Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the documentation
-may be either trademarks or registered trademarks of Microsoft in the United States and/or other countries.
-The licenses for this project do not grant you rights to use any Microsoft names, logos, or trademarks.
-Microsoft's general trademark guidelines can be found at http://go.microsoft.com/fwlink/?LinkID=254653.
+Automated Lab Environment & Data Set up 
+Please follow the instructions in the Automated Lab Environment folder to build and run the tool which will create a trial CDS organization with the data already uploaded.
 
-Privacy information can be found at https://privacy.microsoft.com/en-us/
 
-Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
-or trademarks, whether by implication, estoppel or otherwise.
+For Form Processing, Business Card and Object Detection Labs you will need images which are available in the Lab Images folder 
